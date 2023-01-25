@@ -1,14 +1,17 @@
 function myFunction() {
     alert("ok");
   }
+function showPage(number){
+  if(number == 1){
+    window.open("https://benhern.github.io/KnickKnack_Web/", '_self');
+  }
 
-  function on() {
-    document.getElementById("overlay").style.display = "block";
+  else if(number == 2){
+    window.open("https://rchatt6.wixsite.com/cs428/project2", '_self');
   }
-  
-  function off() {
-    document.getElementById("overlay").style.display = "none";
-  }
+
+}
+
 
 knickText = document.getElementById('knick');
 knickText.style.color = "lightgrey";
