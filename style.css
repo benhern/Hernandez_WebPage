@@ -1,0 +1,50 @@
+body{
+    margin: auto;
+    text-align: center;
+}
+
+.divider{
+    float: left;
+    border: 4px solid lightgreen;
+    border-style: solid solid hidden hidden;
+    border-radius: 50px;
+    background-color: beige;
+    color: black;
+    font-size: 30px;
+    cursor: pointer;
+    width: 250px;
+    height: 500px;
+    transition: width 1s;
+    margin-left: 10px;
+    text-align: left;
+    margin-top: 20px;
+    background-size: cover;
+}
+    
+.divider:hover{
+    background-color: red;
+    width: 550px;
+}
+
+.vertical-word{
+    padding-right: 120px;
+    padding-top: 50px;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    letter-spacing: -5px;
+    word-spacing: 15px;
+}
+
+#projects{
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    background-color: beige;
+}
+
+#about-me{
+    display: flex;
+    justify-content: center;
+    height: 800px;
+    background-color: lightblue;
+}
