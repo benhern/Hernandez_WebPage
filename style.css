@@ -1,6 +1,5 @@
 body{
     margin: auto;
-    text-align: center;
 }
 
 .divider{
@@ -22,17 +21,16 @@ body{
 }
     
 .divider:hover{
-    background-color: red;
     width: 550px;
 }
 
 .vertical-word{
     padding-right: 120px;
     padding-top: 50px;
-    writing-mode: vertical-rl;
+    writing-mode: vertical-lr;
     text-orientation: upright;
-    letter-spacing: -5px;
-    word-spacing: 15px;
+    letter-spacing: -25px;
+    font-family: 'Changa', sans-serif;
 }
 
 #projects{

@@ -4,30 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <title>Benjamin Hernandez 👾 </title>
+
+    <!--Bootstrap and my style sheet-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@600&display=swap" rel="stylesheet">
+  
+  
   </head>
   <body>
 
     <section id="projects">
     <div>
         <div class="divider" onclick="showPage(1)" style="background-image: url('./images/Knick_pic.png'); ">
-            <h2 id="knick" class="vertical-word">KNICKKNACK</h2>
+            <h2 id="knick-text" class="vertical-word">KNICKKNACK</h2>
         </div>
 
         <div class="divider" onclick="myFunction()" style="background-image: url('./images/temp-pic1.png');">
-            <h2 class="vertical-word">MOVIE APP</h2>
+            <div id="movie-text">
+              <h2 class="vertical-word">MOVIE</h2>
+            <h2 class="vertical-word">APP</h2>
+            </div>
+
 
         </div>
 
         <div class="divider" onclick="showPage(2)" style="background-image: url('./images/VR_pic2.png');">
-            <h2 id="VR-pic" class="vertical-word">VR STORE</h2>
+          <div id="VR-text">
+            <h2 class="vertical-word">VR </h2>
+            <h2 class="vertical-word">STORE</h2>
+          </div>  
+
+
 
         </div>
 
         <div class="divider" onclick="myFunction()" style="background-image: url('./images/temp-pic1.png');">
-            <h2 class="vertical-word">442 Project</h2>
+            <div id="project_text">
+             <h3 class="vertical-word">442</h3>
+            <h3 class="vertical-word">Project</h3>
+            </div>
+
         </div>
 
 

@@ -13,9 +13,14 @@ function showPage(number){
 }
 
 
-knickText = document.getElementById('knick');
+knickText = document.getElementById('knick-text');
 knickText.style.color = "lightgrey";
 
-vr_pic = document.getElementById('VR-pic');
-vr_pic.style.color = "lightgrey";
+vr_text = document.getElementById('VR-text');
+vr_text.style.color = "lightgrey";
 
+movie_text = document.getElementById('movie-text');
+movie_text.style.color = "red";
+
+project_text = document.getElementById('project_text');
+project_text.style.color = "red";
